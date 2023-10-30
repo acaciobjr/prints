@@ -10,7 +10,7 @@ if not os.path.exists(caminho_pasta):
     os.makedirs(caminho_pasta)
     print(f"A pasta '{decisao1}' foi criada.")
 
-#Perguntando ao usuário se deseja criar um novo notepad para armazenamento dos novos dados.
+#Pergunta ao usuário se deseja criar um novo notepad para armazenamento dos novos dados.
 while True:
     decisao = input("Deseja criar um novo Notepad (s/n)? ").lower()
     if decisao == 's':
@@ -53,3 +53,4 @@ while True:
     continuar = input("Deseja continuar (s/n)? ").lower()
     if continuar != 's':
         break
+
